@@ -1,15 +1,15 @@
 header
   {color: #fff;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: 'Cairo', sans-serif;
   text-align: center;
   width: 100%;
-  height: 20vh;
+  height: 150px;
   background-color: #333;}
 nav
   {background-color: #222;
   border-bottom: 2px dotted black;
-  font-family: fantasy;
+  font-family: 'Cairo', sans-serif;
   overflow: hidden;}
 nav div div
   {width: 16.6%;
@@ -18,29 +18,61 @@ nav div div
 abbr
   {text-decoration: none}
 marquee
-    {color: #555;}
-.containerA
-  {overflow: hidden;}
-.divIzq
-  {float: left;
-  background-color: #111;
-  width: 24%;
-  height: 700px;
-  border: 1% white}
-.divDer
+  {color: #555;}
+Body
   {float: right;
-  background-color: #222;
-  width: 74%;
-  height: 700px;
-  border: 1% white}
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(#aaf, blue);
+  font-family: 'Cairo', sans-serif;}
+footer
+  {color: #fff;
+  font-family: 'Cairo', sans-serif;
+  width: 100%;
+  height: 125px;
+  background-color: #333;
+  padding: 3vw 3vh;
+  letter-spacing: 1.2px}
 .white
   {color: white}
 .center
   {text-align: center}
-.h2_y_h3
+h2
   {font-size: 40px;
-  font-family: fantasy;
-  font-weight: bold;}
-.dialogos
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white}
+.navButton
+  {font-weight: bold;
+  color: #499}
+.left
   {text-align: left;
-  padding-left: 5%}
+  list-style: none}
+.container
+  {overflow:hidden;}
+.Feed
+  {border: 1px solid black;
+  width: 95%;
+  background: -webkit-linear-gradient(#336, #116);
+  color: #aaf;
+  border-radius: 20px;
+  padding-left: 2%}
+.Question
+  {background: -webkit-linear-gradient(#77d, blue);
+  width: 88%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 4vw;
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  border-radius: 10px;}
+.Answer
+  {background-color: inherit;
+  width: 100%;
+  text-align: left;
+  font-size: 3.5vw;
+  color: #bbf;
+  font-family: 'Cairo', sans-serif;}
+.center
+  {text-align: center}

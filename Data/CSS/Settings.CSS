@@ -24,5 +24,7 @@ header {
   border: 1px #ABB2AF solid;
   margin: 10px;
   font-family: Cairo;
-
 }
+
+.Center
+  {text-align: center}
