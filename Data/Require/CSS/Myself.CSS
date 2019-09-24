@@ -1,6 +1,28 @@
+header
+  {color: #fff;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background-color: #333;}
+nav
+  {background-color: #222;
+  border-bottom: 2px dotted black;
+  font-family: 'Cairo', sans-serif;
+  overflow: hidden;}
+nav div div
+  {width: 16.6%;
+  text-align: center;
+  float: left;}
 abbr
   {text-decoration: none}
-
+marquee
+  {color: #555;}
+article img
+  {width: 100%;
+  height: 100%;
+  float: right;}
 Body
   {float: right;
   height: 100%;
@@ -15,19 +37,20 @@ footer
   background-color: #333;
   padding: 3vw 3vh;
   letter-spacing: 1.2px}
-.navButton
-  {color: white;
-  font-weight: bold;
-  text-decoration: none;
-  color: white}
-.container
-  {overflow: hidden;}
+.white
+  {color: white}
 .center
   {text-align: center}
-.alignPad
+.h2_y_h3
+  {font-size: 40px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white}
+.dialogos
   {text-align: left;
-  padding-left: 2%}
-.Negrita
+  padding-left: 5%}
+.navButton
   {font-weight: bold;
   color: #499}
 .left
@@ -35,13 +58,28 @@ footer
   list-style: none}
 .container
   {overflow:hidden;}
-.form
+.Posts_Feed
+  {border: 1px solid black;
+  width: 95%;
+  background: -webkit-linear-gradient(#336, #116);
+  color: #aaf;
+  border-radius: 30px}
+.Posts_Title
+  {background: -webkit-linear-gradient(#77d, blue);
+  width: 90%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 4vw;
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  border-radius: 10px}
+.Posts_text
   {background-color: inherit;
   width: 100%;
   text-align: left;
   font-weight: bold;
   font-size: 3vw;
-  color: #ccf;
+  color: #77a;
   border-top: 1px dotted white;
   font-family: 'Cairo', sans-serif;}
 .searchList

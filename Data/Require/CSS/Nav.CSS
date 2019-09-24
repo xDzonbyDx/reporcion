@@ -1,0 +1,17 @@
+
+nav
+  {background-color: #222;
+  border-bottom: 2px dotted black;
+  font-family: 'Cairo', sans-serif;
+  overflow: hidden;}
+nav div div
+  {width: 16.6%;
+  text-align: center;
+  float: left;
+  font-weight: bold;
+  color: #FFf;}
+.blueButton
+  {background-color: blue;
+  color: #fff;
+  padding: #339;
+  border-radius: 10px}

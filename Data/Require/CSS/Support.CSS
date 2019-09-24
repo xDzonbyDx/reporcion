@@ -19,15 +19,11 @@ abbr
   {text-decoration: none}
 marquee
   {color: #555;}
-article img
-  {width: 100%;
-  height: 100%;
-  float: right;}
 Body
   {float: right;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(#aaf, blue);
+  background: -webkit-linear-gradient(#449, #112);
   font-family: 'Cairo', sans-serif;}
 footer
   {color: #fff;
@@ -41,16 +37,13 @@ footer
   {color: white}
 .center
   {text-align: center}
-.h2_y_h3
+h2
   {font-size: 40px;
   font-family: 'Cairo', sans-serif;
   font-weight: bold;
   text-align: center;
   color: white}
-.dialogos
-  {text-align: left;
-  padding-left: 5%}
-.Negrita
+.navButton
   {font-weight: bold;
   color: #499}
 .left
@@ -58,45 +51,33 @@ footer
   list-style: none}
 .container
   {overflow:hidden;}
-.Posts_Feed
+.Feed
   {border: 1px solid black;
   width: 95%;
   background: -webkit-linear-gradient(#336, #116);
   color: #aaf;
-  border-radius: 30px}
-.Posts_Title
+  border-radius: 20px;
+  padding-left: 2%}
+.Question
   {background: -webkit-linear-gradient(#77d, blue);
-  width: 90%;
-  text-align: left;
-  font-weight: bold;
-  font-size: 4vw;
-  color: white;
-  font-family: 'Cairo', sans-serif;
-  border-radius: 10px}
-.Posts_text
-  {background-color: inherit;
-  width: 100%;
+  width: 88%;
   text-align: left;
   font-weight: bold;
   font-size: 3vw;
-  color: #77a;
-  border-top: 1px dotted white;
-  font-family: 'Cairo', sans-serif;}
-.searchList
-  {width: 20%;
-  text-align: center;
-  padding-left: 5%
-  color: green;
-  border-radius: 20px}
-.Post_comment
-  {background-color: #44c;
-  width: 80%;
-  text-align: left;
-  font-weight: bold;
-  font-size: 4vw;
   color: white;
   font-family: 'Cairo', sans-serif;
-  border-radius: 30px}
+  border-radius: 10px;}
+.textarea
+  {background: -webkit-linear-gradient(#eee, #777);
+  width: 80%;
+  text-align: left;
+  font-size: 2vw;
+  color: black;
+  font-family: 'Cairo', sans-serif;
+  border-radius: 8px;
+  font-weight: bold}
+.center
+  {text-align: center}
 .loginButton
   {background-color: blue;
   color: #fff;

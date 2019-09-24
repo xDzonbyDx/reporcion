@@ -1,0 +1,30 @@
+body {
+  background color: white;
+  font-family: Cairo;
+}
+
+.container {
+  overflow: hidden;
+}
+
+h1 {
+   text-align: center;
+   color: white;
+}
+
+header {
+  background-color: #333;
+  display: block;
+}
+
+#ez li{
+  text-align: center;
+  color: black;
+  padding: 10px;
+  border: 1px #ABB2AF solid;
+  margin: 10px;
+  font-family: Cairo;
+}
+
+.Center
+  {text-align: center}
