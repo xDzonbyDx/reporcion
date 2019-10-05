@@ -1,4 +1,13 @@
-<?php $marquee = "Welcome to your page!!!" ?>
+<?php
+
+$marquee = "Welcome to your page!!!";
+
+$Color1 = "rgb(255,0,0)";
+$Color2 = "rgb(0,255,0)";
+
+
+
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,21 +15,25 @@
     <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/Home.CSS">
+    <link rel="stylesheet" href="Require/CSS/Nav.CSS">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     <title>Home</title>
   </head>
   <body>
+    <?php require_once("Require/BodyColorEMPTY.PHP");?>
     <?php require_once("Require/Nav.PHP");?>
     <?php require_once("Require/Header.PHP") ;?>
-<div class="Body white center">
+
+<div class=" white center">
 
       <h2 class="h2_y_h3">HOME</h2>
 
       <br>
 
-      <div class="Posts_Feed">
+      <div class="Feed">
+        <?php require_once("Require/PostsFeedEMPTY.PHP");?>
         <br>
             <ul>
               <li>
@@ -63,11 +76,12 @@
         </div>
       </div>
 
-  <footer>
-      Do ya' need help?
-      <br> <a href="Support.HTML">CONTACT SUPPORT HERE </a>
-      <br> <a href="FAQ.PHP">SEE THE FAQ HERE </a>
-      <p><marquee> Why are you still here?</marquee></p>
-  </footer>
+
 </body>
+<footer>
+    Do ya' need help?
+    <br> <a href="Support.HTML">CONTACT SUPPORT HERE </a>
+    <br> <a href="FAQ.PHP">SEE THE FAQ HERE </a>
+    <p><marquee> Why are you still here?</marquee></p>
+</footer>
 </html>

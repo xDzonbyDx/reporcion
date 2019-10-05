@@ -6,15 +6,6 @@ header
   width: 100%;
   height: 150px;
   background-color: #333;}
-nav
-  {background-color: #222;
-  border-bottom: 2px dotted black;
-  font-family: 'Cairo', sans-serif;
-  overflow: hidden;}
-nav div div
-  {width: 16.6%;
-  text-align: center;
-  float: left;}
 abbr
   {text-decoration: none}
 marquee
@@ -23,12 +14,6 @@ article img
   {width: 100%;
   height: 100%;
   float: right;}
-Body
-  {float: right;
-  height: 100%;
-  width: 100%;
-  background: -webkit-linear-gradient(#aaf, blue);
-  font-family: 'Cairo', sans-serif;}
 footer
   {color: #fff;
   font-family: 'Cairo', sans-serif;
@@ -58,12 +43,6 @@ footer
   list-style: none}
 .container
   {overflow:hidden;}
-.Posts_Feed
-  {border: 1px solid black;
-  width: 95%;
-  background: -webkit-linear-gradient(#336, #116);
-  color: #aaf;
-  border-radius: 30px}
 .Posts_Title
   {background: -webkit-linear-gradient(#77d, blue);
   width: 90%;

@@ -6,7 +6,6 @@
 <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
   <nav class="fixed-top .row">
     <div class="nav .col-xs-4">
-
                 <div> <a href="Register-Login.PHP">  LOGIN - REGISTER</a> </div>
                 <div> <a href="Home.PHP">            HOME            </a> </div>
                 <div> <a href="Myself.PHP">          MY PROFILE      </a> </div>

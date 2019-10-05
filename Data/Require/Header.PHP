@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <head>
     <meta charset="utf-8">
     <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +12,5 @@
 <header> <br> <br>
               <h1> I AM</h1>
               <p><marquee> <?php echo $marquee?></marquee></p>
-
-
+              <p>
 </header>
