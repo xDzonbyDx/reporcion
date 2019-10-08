@@ -1,11 +1,9 @@
 <?php
 
 $marquee = "Welcome to your page!!!";
-
-$Color1 = "rgb(255,0,0)";
-$Color2 = "rgb(0,255,0)";
-
-
+$Color1 = "rgb(100,0,0)";
+$Color2 = "rgb(0,100,0)";
+$Text = "rgb(150,150,150)";
 
  ?>
 <!DOCTYPE html>
@@ -33,7 +31,7 @@ $Color2 = "rgb(0,255,0)";
       <br>
 
       <div class="Feed">
-        <?php require_once("Require/PostsFeedEMPTY.PHP");?>
+        <?php require_once("Require/BodyFeedEMPTY.PHP");?>
         <br>
             <ul>
               <li>
@@ -44,14 +42,15 @@ $Color2 = "rgb(0,255,0)";
                 	</form>
                 </section> </li>
                 <li>
-                <article class="Posts_comment"><h2>Say something!</h2><br>
+                <article><h2>Say something!</h2><br>
                     <textarea class="Post_comment" width="100%" height="400px"> </textarea>
                 </article>
               </li>
               <br>
               <br>
               <li>
-                <article class="Posts_Title">New in IAM?<br>
+                <article class="Posts_Title">
+                  <?php require_once("Require/BodyCommentsEMPTY.PHP");?> New in IAM?<br>
                     <div  class="Posts_text">First of all, thanks you for checking our page... </div>
                 </article>
               </li>

@@ -43,15 +43,6 @@ footer
   list-style: none}
 .container
   {overflow:hidden;}
-.Posts_Title
-  {background: -webkit-linear-gradient(#77d, blue);
-  width: 90%;
-  text-align: left;
-  font-weight: bold;
-  font-size: 4vw;
-  color: white;
-  font-family: 'Cairo', sans-serif;
-  border-radius: 10px}
 .Posts_text
   {background-color: inherit;
   width: 100%;
