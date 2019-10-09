@@ -35,7 +35,7 @@
           $(this).addClass("focus");
             });
 
-        $(".txtb input").on("blur",function()){
+        $(".txtb input").on("blur",function(){
             if($(this).val() == "")
               $(this).removeClass("focus");
             });
