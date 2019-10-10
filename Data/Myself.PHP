@@ -1,4 +1,9 @@
-<?php $marquee = "Thats me!!!" ?>
+<?php $marquee = "Thats me!!!";
+
+$Color1 = "rgb(100,0,0)";
+$Color2 = "rgb(0,100,0)";
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,6 +18,7 @@
     <title></title>
   </head>
   <body>
+      <?php require_once("Require/BodyColorEMPTY.PHP");?>
     <?php require_once("Require/Nav.PHP");?>
     <?php require_once("Require/Header.PHP") ;?>
 <div class="Body white center">

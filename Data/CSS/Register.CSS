@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: montserrat;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 200vh;
+  background-image: linear-gradient(120deg,#9AECDB,#D6A2E8);
+}

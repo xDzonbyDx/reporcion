@@ -1,0 +1,54 @@
+header
+  {color: #fff;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background-color: #333;}
+.texto
+  {font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center}
+marquee
+  {color: #555;}
+abbr
+  {text-decoration: none}
+footer
+  {color: #fff;
+  font-family: 'Cairo', sans-serif;
+  width: 100%;
+  height: 125px;
+  background-color: #333;
+  padding: 3vw 3vh;
+  letter-spacing: 1.2px}
+.container
+  {overflow: hidden;}
+.center
+  {text-align: center}
+.alignPad
+  {text-align: left;
+  padding-left: 2%}
+.Negrita
+  {font-weight: bold;
+  color: #499}
+.left
+  {text-align: left;
+  list-style: none}
+.container
+  {overflow:hidden;}
+.form
+  {background-color: inherit;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 3vw;
+  color: #ccf;
+  border-top: 1px dotted white;
+  font-family: 'Cairo', sans-serif;}
+.loginButton
+  {background-color: blue;
+  color: #fff;
+  padding: #339;
+  border-radius: 10px}
